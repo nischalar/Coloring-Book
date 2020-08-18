@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_yellow"
+    tools:context=".Activity.SingleViewActivity">
+    <ImageButton
+        android:id="@+id/img_select_color"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/text"
+        android:background="@drawable/round_button"
+        />
+
+    <com.rjgram.coloringbook.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_toStartOf="@+id/img_select_color"
+        android:layout_toLeftOf="@+id/img_select_color" />
+</RelativeLayout>

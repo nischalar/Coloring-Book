@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Coloring Book</string>
+    <string name="text">Text</string>
+    <string name="select_categories">Select Categories</string>
+    <string name="animals_and_birds">Animals and Birds</string>
+    <string name="vegetable_and_fruits">Vegetable and Fruits</string>
+    <string name="merry_christmas">Merry Christmas</string>
+    <string name="disney">Disney</string>
+    <string name="transport">Transport</string>
+
+
 </resources>
